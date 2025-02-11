@@ -21,6 +21,7 @@
                 <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
             <ui:Button
                 Height="36"
@@ -187,12 +188,31 @@
                 Padding="0"
                 HorizontalAlignment="Right"
                 VerticalAlignment="Top"
-                AutomationProperties.Name="{x:Static p:Resources.Open_settings}"
+                AutomationProperties.Name="{x:Static p:Resources.Delete_all}"
                 Background="Transparent"
                 BorderBrush="Transparent"
                 Command="{Binding OpenSettingsCommand}"
                 Style="{StaticResource SubtleButtonStyle}"
                 TabIndex="2"
+                ToolTipService.ToolTip="{x:Static p:Resources.Delete_all}">
+                <Button.Content>
+                    <ui:SymbolIcon FontSize="18" Symbol="Delete20" />
+                </Button.Content>
+            </Button>
+
+            <Button
+                Grid.Column="3"
+                Width="36"
+                Height="36"
+                Padding="0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                AutomationProperties.Name="{x:Static p:Resources.Open_settings}"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                Command="{Binding OpenSettingsCommand}"
+                Style="{StaticResource SubtleButtonStyle}"
+                TabIndex="3"
                 ToolTipService.ToolTip="{x:Static p:Resources.Open_settings}">
                 <Button.Content>
                     <ui:SymbolIcon FontSize="18" Symbol="Settings20" />

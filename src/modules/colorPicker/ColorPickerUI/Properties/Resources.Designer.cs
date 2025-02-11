@@ -169,6 +169,15 @@ namespace ColorPicker.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Delete all.
+        /// </summary>
+        public static string Delete_all {
+            get {
+                return ResourceManager.GetString("Delete_all", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Export.
         /// </summary>
         public static string Export_by {

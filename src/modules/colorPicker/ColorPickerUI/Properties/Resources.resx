@@ -408,4 +408,8 @@
     <value>Color Picker</value>
     <comment>Do not translate product name</comment>
   </data>
+  <data name="Delete_all" xml:space="preserve">
+    <value>Delete all</value>
+    <comment>Tooltip that shows that the user can click this button to delete all color selections</comment>
+  </data>
 </root>
