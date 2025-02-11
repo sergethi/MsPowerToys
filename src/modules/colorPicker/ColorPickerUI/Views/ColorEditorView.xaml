@@ -191,7 +191,7 @@
                 AutomationProperties.Name="{x:Static p:Resources.Delete_all}"
                 Background="Transparent"
                 BorderBrush="Transparent"
-                Command="{Binding OpenSettingsCommand}"
+                Command="{Binding RemoveAllColorsCommand }"
                 Style="{StaticResource SubtleButtonStyle}"
                 TabIndex="2"
                 ToolTipService.ToolTip="{x:Static p:Resources.Delete_all}">
