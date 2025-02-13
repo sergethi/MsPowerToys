@@ -15,6 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Moq" />
     <PackageReference Include="MSTest" />
     <PackageReference Include="Microsoft.Win32.SystemEvents">
       <!-- This package is a dependency of System.Drawing.Common, but we need to set it here so we can exclude the assets, so it doesn't conflict with the 8.0.1 dll coming from .NET SDK. -->
